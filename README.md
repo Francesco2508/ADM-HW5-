@@ -3,7 +3,7 @@
 Group #17
 
 #5 Homework of ADM within the MSc in Data Science @ La Sapienza University
-
+---
 In this assignment we performed an analysis of the Wikipedia Hyperlink graph. As first step we downloaded the .txt files (Wikicat hyperlink graph, wiki-topcats-categories.txt, wiki-topcats-page-names.txt).
 [RQ1]
 After, using the hyperlink file, we created our graph in a shape of dictionary where the keys are the sources nodes and the values a list of all neightbours. From the graph we determinated:
