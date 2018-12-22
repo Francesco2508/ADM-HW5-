@@ -5,7 +5,7 @@ Francesco Romeo,
 Mario Raimo,
 Omirbanu Nurassilova
 
-##Homework 5 of ADM, MSc in Data Science Sapienza University
+## Homework 5 of ADM, MSc in Data Science Sapienza University
 ---
 In this assignment we performed an analysis of the Wikipedia Hyperlink graph. As first step we downloaded the .txt files (Wikicat hyperlink graph, wiki-topcats-categories.txt, wiki-topcats-page-names.txt).
 ###### [RQ1]
