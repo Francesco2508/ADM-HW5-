@@ -15,7 +15,7 @@ After, using the hyperlink file, we created our graph in a shape of dictionary w
 - number of edges = 2645247
 - the avarage node degree = 5.735661642739591 
 - its density = 1.2436602635647606e-05
-In our repository all work is in "ADM-HW 5.ipynb" file. It contains all our methods and calculations.
+########In our repository all work is in "ADM-HW 5.ipynb" file. It contains all our methods and calculations.
 
 ###### [RQ2]
 After that, we denifed our function based on BFS (Breadth-first search). This function checks each node of the graph starting from the source up to the arrival node. 
