@@ -10,8 +10,8 @@ After, using the hyperlink file, we created our graph in a shape of dictionary w
 - the type of our graph (it's a directed graph)
 - number of nodes = 461193
 - number of edges = 2645247
-- the avarage node degree = 1.2436602635647606e-05 
-- its density = 5.735661642739591
+- the avarage node degree = 5.735661642739591 
+- its density = 1.2436602635647606e-05
  
 ###### [RQ2]
 After that, we denifed our function based on BFS (Breadth-first search). This function checks each node of the graph starting from the source up to the arrival node. 
