@@ -27,8 +27,8 @@ Using the function we computed distances between every pair of nodes, where the 
 
 - [x] Step 1:	we compute subgraph of input category assuming for every in-edges a weight of 1
 - [x] Step 2: Now if we take into account that: the in-edges coming from the previous category have as weights the score of the node that sends the edge.
-We need to implement a function for storing weights of the edges of nodes that comes from previous subgraph. In that function we did: take all destinations of nodes of previous subrgaph, and then take each destination as a key, and as values we take scores of nodes. 
-And then we implemented function that merges nodes of previous graph and nodes of the given category. It takes as weights of edges of previous graph and take 1 to edges that comes with given category.
+We need to implement a function for storing weights of the edges of nodes that comes from previous subgraph. In that function we did: take all destinations of nodes of previous subgraph, and then take each destination as a key, and as values we take scores of nodes. 
+And then we implemented function that merges nodes of previous subgraph and nodes of the given category. It takes as weights of edges of previous graph and take 1 to edges that comes with given category.
 - [x] Step 3: And again we need to store weights of edges of the graph that we got in step 2. And then organize a cycle to add categories respecting to their position in ranking vector.
 At the screenshot below you can see that out output files takes more than 1000 KB, because of this reason we did not push into github our files.
 ![alt text](https://github.com/Francesco2508/ADM-HW5-/blob/master/Scores_files.jpg)
