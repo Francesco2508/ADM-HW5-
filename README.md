@@ -21,7 +21,7 @@ In our repository all work is in "ADM-HW 5.ipynb" file. It contains all our meth
 ###### [RQ2]
 After that, we denifed our function based on BFS (Breadth-first search). This function checks each node of the graph starting from the source up to the arrival node. 
 
-Using the function we computed distances between every pair of nodes, where the source nodes were always the nodes belong to the input category and arrive nodes changed every time dipending on the i-th category. At the end of this proces we got 28 different dictionaries where the keys are always the node of the input category and the values a list of possible paths to reach the i-th category. Per each key of all 28 dictionaries we took, from their linked list, the shortest path; in this way at the end we had per each pair of category we have a list of all shortest path and from here we took the median, used after as a score to sort all the categories.
+Using the function we computed distances between every pair of nodes, where the source nodes were always the nodes belong to the input category and arrive nodes changed every time dipending on the i-th category. At the end of this process we got 28 different dictionaries where the keys are always the nodes of the input category and the values a list of possible paths to reach the i-th category. Per each key of all 28 dictionaries we took, from their linked list, the shortest path; in this way, at the end, we had per each pair of category a list of all shortest path and from here we took the median, used after as a score to sort all the categories.
 
 ###### [STEP 1 to 3]
 
